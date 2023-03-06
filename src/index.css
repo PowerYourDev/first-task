@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Poppins&family=Sarabun");
+
+*{
+   box-sizing: border-box; 
+   padding: 0;
+   margin: 0;
+}
+
+.App{
+    display: flex;
+    gap: 20%;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 100%;
+   background-color:#EBEBEB;
+   position: fixed;
+   top: 0;
+   left: 0;
+  
+    
+}
+
+ul{
+    list-style-type: none;
+}
+.header{
+    height: 40px;
+    background-color: #FDFDFF;
+    width:1000px;
+    margin-top:10px ;
+    margin-bottom: 50px;
+    box-shadow: 2px 7px 7px 0px rgba(0, 0, 0, 0.1);
+    
+}
+.header-content{
+    padding:2px 25px 4px 0px ;
+    font-family: 'Poppins';
+   float: right;
+    text-align: center;
+    color:#103A5D;
+    line-height: 30px;
+    size: 20px;
+    font-weight: 400;
+   
+}
+.input-info{
+  font-size: 14px;
+  line-height:20px;
+  color: #667085;
+  padding-bottom: 8px;
+}
+.product-input{
+    border-radius: 8px;
+     padding: 6px 0px 6px 3px;
+     border: 1.5px solid #D0D5DD;
+     margin-top:2px ;
+}
+.new-product-product{
+    font-weight: 600;
+    line-height: 30px;
+}
+.new-input-label{
+    font-size: 18px;
+    line-height: 24px;
+    padding: 1px;
+    font-weight:400 ;
+
+   
+  
+}
+
+.add-new-product{
+    color: #103A5D;
+    font-size: 30px;
+    line-height:35px ;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-weight: 600px;
+}
+.Faq-content{
+    display: flex;
+    flex-direction: column;
+}
+.faq{
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 24px     ;
+}
+.Faq-curd{
+    display: flex;
+    border-radius: 3px;
+    border: 1px solid #D0D5DD;
+    border-right: 0px;
+    align-items: baseline;
+   
+}
+.Faq-curd > li{
+    border-right: 1px solid #D0D5DD;
+    padding: 3px;
+    text-align: center;
+    
+}
+
+.faq-t-curd{
+    display: flex;
+   gap: 7px;
+   padding: 5px;
+}
+.faq-inputs{
+    border: 2px solid #D0D5DD;
+    border-radius: 8px;
+    margin:6px ;
+    display: flex;
+    padding: 6px 0px 6px 3px;
+}
+.company-logo{
+    margin-top: 8px   ;
+    margin-bottom: 5px;
+    
+}
+.faq-radio{
+    border-right: 1px solid #D0D5DD;
+   vertical-align: center;
+   padding: 20px;
+   margin-right: 10px;
+   margin: 5px;
+   
+}
+
+.sidebar{
+    padding:10px 10px 0px 10px;
+    font-family: 'Sarabun';
+
+}
+.main-dashboard{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.new-fdes{
+    padding: 2px 0px 35px 4px;
+    border-radius:5px;
+}
+.sidebar-li-items{
+    padding-top: 10px;
+}
+.sidebar-li-items > li{
+        
+    padding: 4px;
+    margin-bottom: 5px;
+     align-items: baseline;
+
+   
+}
+
+.faq-inputs{
+    padding:3px;
+    margin: 10px;
+    
+}
+.done-button{
+    background-color: #0900BC;
+    padding: 6px 13px;
+    color:white;
+    margin: 8px 0px 20px 0px;
+
+}
+.new-offer{
+    margin-left: -24px;
+}
+.new-offer-input{ 
+    margin-left:-22px;
+    
+}
+.faq-around-input{
+    padding: 6px;
+
+  
+}
+.faq-input{
+    padding: 3px;
+    margin: 5px;
+    border-radius: 6px;
+    border: 1px solid #D0D5DD;
+    
+}
+.icons{
+    width:20px;
+    height: 20px;
+    
+  
+}
+.logo{
+    padding:9px;
+    margin-bottom:30px;
+}
+.head-icon{
+  height: 30px;
+  width: 30px;
+
+}
+.body{
+    margin-left: 13px;
+    font-family: 'Sarabun';
+}
+.faq{
+    margin: 5px;
+}
+.new-product{
+    margin-left: 20px;
+}
+.kk{
+    margin-right: 10px;
+    text-align: center;
+}
+.svg-curd{
+    padding: 2px;
+}
